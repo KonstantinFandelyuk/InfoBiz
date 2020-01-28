@@ -1,0 +1,23 @@
+.header {
+	background-image: url("../img/header/background.png");
+	background-repeat: no-repeat;
+	background-position: top right;
+	// background-size: cover;
+	height: 986px;
+}
+
+.header__menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__menu-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__menu-item {
+	color: white;
+}

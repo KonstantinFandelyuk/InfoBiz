@@ -38,7 +38,6 @@ s,
 samp,
 small,
 strike,
-strong,
 sub,
 sup,
 tt,
@@ -260,7 +259,7 @@ input[type="submit"] {
 .section__tittle {
   font-size: 36px;
   font-weight: bold;
-  max-width: 700px;
+  max-width: 715px;
   margin: 0 auto;
   line-height: 1.1; }
 

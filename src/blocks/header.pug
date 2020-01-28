@@ -4,14 +4,14 @@ header.header
 			.header__menu
 				.header__logo
 					img(src="img/header/logo.png", alt="").logo
-				.header__menu-list
-					.header__menu-item Home
-					.header__menu-item Hiking
-					.header__menu-item About
-					.header__menu-item Login
-			.header__row-2
-				.header__col-1
-					.header__info
-						.header__info-tittle Let’s get the top of Mountain
-						.header__info-text Here is the hiking information you need to decide if it is right for you, and to make it more interesting, enjoyable, and safe.
-						button.header__info-button
+				ul.header__menu-list
+					li.header__menu-item <a href="">Home</a>
+					li.header__menu-item <a href="">Next</a>
+					li.header__menu-item <a href="">About</a>
+					li.header__menu-item.header__menu-item--login <a href="">Login</a>
+		.header__row-2
+			.header__col-1
+				.header__info
+					.header__info-tittle Let’s get the top of Mountain
+					.header__info-text Here is the hiking information you need to decide if it is right for you, and to make it more interesting, enjoyable, and safe.
+					button(type="submit").button.header__info-button Get Started

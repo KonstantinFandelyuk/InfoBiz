@@ -1,0 +1,33 @@
+.history__box {
+	display: flex;
+	justify-content: center;
+}
+
+.history__box-img {
+	border-radius: 7px;
+	overflow: hidden;
+	margin-right: 20px;
+	width: 420px;
+}
+
+.history__box-info {
+	max-width: 910px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.history__box-tittle {
+	color: #263238;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 60px;
+	margin-bottom: 10px;
+}
+
+.history__box-text {
+	font-size: 18px;
+	font-weight: 300;
+	color: $problem__box-info--text;
+	line-height: 1.4;
+}

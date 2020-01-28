@@ -250,7 +250,7 @@ input[type="submit"] {
 .section__problem {
   background-image: url("../img/section/section__problem/background.png");
   background-repeat: no-repeat;
-  background-position: initial;
+  background-position: top center;
   background-size: cover; }
 
 .section__row-1 {
@@ -296,3 +296,32 @@ input[type="submit"] {
   font-weight: 300;
   color: #546e7a;
   line-height: 1.8; }
+
+.history__box {
+  display: flex;
+  justify-content: center; }
+
+.history__box-img {
+  border-radius: 7px;
+  overflow: hidden;
+  margin-right: 20px;
+  width: 420px; }
+
+.history__box-info {
+  max-width: 910px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.history__box-tittle {
+  color: #263238;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 60px;
+  margin-bottom: 10px; }
+
+.history__box-text {
+  font-size: 18px;
+  font-weight: 300;
+  color: #546e7a;
+  line-height: 1.4; }

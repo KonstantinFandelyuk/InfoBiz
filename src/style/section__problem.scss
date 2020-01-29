@@ -1,9 +1,9 @@
 .section {
-	margin-top: 203px;
+	margin-top: 150px;
 }
 
 .section__problem {
-	background-image: url("../img/section/section__problem/background.png");
+	background-image: url("../img/section/section__content/background.png");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
@@ -22,7 +22,7 @@
 	line-height: 1.1;
 }
 
-.problem__box {
+.content__box {
 	margin: 0 116px;
 	display: flex;
 	flex-wrap: wrap;
@@ -30,33 +30,33 @@
 	align-items: flex-end;
 }
 
-.problem__box-item {
+.content__box-item {
 	max-width: 549px;
 	margin-left: 66px;
 	margin-bottom: 40px;
 }
 
-.problem__box-img {
+.content__box-img {
 	text-align: center;
 }
 
-.problem__box-info {
+.content__box-info {
 	padding: 50px 70px;
 	background-color: white;
 	border-radius: 10px;
 	margin-top: 63px;
 }
 
-.problem__box-info--tittle {
-	color: $problem__box-info--tittle;
+.content__box-info--tittle {
+	color: $box-info--tittle;
 	font-size: 24px;
 	font-weight: bold;
 	margin-bottom: 60px;
 }
 
-.problem__box-info--text {
+.content__box-info--text {
 	font-size: 18px;
 	font-weight: 300;
-	color: $problem__box-info--text;
+	color: $box-info--text;
 	line-height: 1.8;
 }

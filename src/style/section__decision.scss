@@ -1,0 +1,33 @@
+// .section__decision {
+// 	background: white;
+// }
+
+.content__box-item--left,
+.content__box-item--right {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1020px;
+	margin-bottom: 20px;
+}
+
+.content__box-info--right,
+.content__box-info--left {
+	box-shadow: 0px 2px 13px 0px rgba(0, 0, 0, 0.45);
+	margin-top: 10px;
+	padding: 5px 15px;
+}
+
+.content__box-img--left {
+	order: 2;
+	margin-left: 10px;
+}
+
+.content__box-info--right {
+	order: 1;
+}
+
+.content__box-info--tittle--right,
+.content__box-info--tittle--left {
+	margin: 30px 0px;
+}

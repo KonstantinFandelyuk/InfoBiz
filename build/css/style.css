@@ -243,11 +243,14 @@ input[type="submit"] {
   padding: 30px 65px;
   font-weight: bold; }
 
+.header__info-button:hover {
+  background: #5ccf02; }
+
 .section {
-  margin-top: 203px; }
+  margin-top: 150px; }
 
 .section__problem {
-  background-image: url("../img/section/section__problem/background.png");
+  background-image: url("../img/section/section__content/background.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover; }
@@ -263,34 +266,34 @@ input[type="submit"] {
   margin: 0 auto;
   line-height: 1.1; }
 
-.problem__box {
+.content__box {
   margin: 0 116px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-end; }
 
-.problem__box-item {
+.content__box-item {
   max-width: 549px;
   margin-left: 66px;
   margin-bottom: 40px; }
 
-.problem__box-img {
+.content__box-img {
   text-align: center; }
 
-.problem__box-info {
+.content__box-info {
   padding: 50px 70px;
   background-color: white;
   border-radius: 10px;
   margin-top: 63px; }
 
-.problem__box-info--tittle {
+.content__box-info--tittle {
   color: #263238;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 60px; }
 
-.problem__box-info--text {
+.content__box-info--text {
   font-size: 18px;
   font-weight: 300;
   color: #546e7a;
@@ -324,3 +327,52 @@ input[type="submit"] {
   font-weight: 300;
   color: #546e7a;
   line-height: 1.4; }
+
+.section__row-3 {
+  margin-top: 50px; }
+
+.statistic__box-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.statistic__box-item {
+  text-align: center; }
+
+.statistic__box-title {
+  font-size: 21px;
+  margin-bottom: 10px; }
+
+.statistic__box-text {
+  font-size: 21px; }
+
+.statistic__box-numbers {
+  font-size: 36px;
+  color: #1a56a3;
+  font-weight: bold;
+  margin-bottom: 10px; }
+
+.content__box-item--left,
+.content__box-item--right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1020px;
+  margin-bottom: 20px; }
+
+.content__box-info--right,
+.content__box-info--left {
+  box-shadow: 0px 2px 13px 0px rgba(0, 0, 0, 0.45);
+  margin-top: 10px;
+  padding: 5px 15px; }
+
+.content__box-img--left {
+  order: 2;
+  margin-left: 10px; }
+
+.content__box-info--right {
+  order: 1; }
+
+.content__box-info--tittle--right,
+.content__box-info--tittle--left {
+  margin: 30px 0px; }

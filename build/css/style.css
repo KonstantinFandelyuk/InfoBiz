@@ -382,3 +382,185 @@ input[type="submit"] {
 .content__box-info--tittle--right,
 .content__box-info--tittle--left {
   margin: 30px 0px; }
+
+.section__price {
+  background-image: url("../img/section/section__price/background.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 17%; }
+
+.price__box-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.price__box-item {
+  padding: 10px 10px; }
+
+.price__box-item--second,
+.price__box-item--first {
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.7);
+  margin-left: 20px;
+  border-radius: 10px; }
+
+.price__box-info {
+  text-align: center;
+  padding: 10px; }
+
+.price__box-info--description {
+  text-align: start;
+  padding: 10px; }
+
+.price__box-tittle {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px; }
+
+.price__box-text {
+  line-height: 2;
+  font-size: 17px; }
+
+.price-tp,
+.price-cost {
+  font-weight: 600;
+  margin: 10px 0px;
+  font-size: 35px; }
+
+.price-text {
+  line-height: 1.9;
+  margin-bottom: 10px;
+  font-size: 16px; }
+
+.price-buy {
+  border-radius: 50px;
+  color: white;
+  background: #2870db;
+  padding: 15px 65px;
+  font-weight: bold; }
+
+.price-buy:hover {
+  background: #f7646b; }
+
+.footer {
+  margin-top: 210px;
+  background-image: url("../img/footer/background.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover; }
+
+.subscription__box {
+  text-align: center;
+  background-image: url("../img/footer/mail.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  border-radius: 20px;
+  overflow: hidden; }
+
+.subscription__box-tittle {
+  font-size: 36px;
+  padding: 80px 234px;
+  color: white; }
+
+.subscription__box-form {
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.subscription__box-input {
+  background-color: white;
+  border: 0px solid red;
+  border-radius: 10px;
+  padding: 20px 300px 20px 25px; }
+
+.subscription__box-input::placeholder {
+  font-style: italic; }
+
+.subscription__box-input--name {
+  margin-bottom: 25px; }
+
+.subscription__box-input--phone {
+  margin-bottom: 70px; }
+
+.subscription__box-button {
+  margin: 0 auto;
+  border-radius: 50px;
+  color: white;
+  background: #546e7a;
+  padding: 20px 90px;
+  font-weight: bold; }
+
+.subscription__box-button:hover {
+  background: #5ccf02; }
+
+.footer__row-2 {
+  padding: 30px 0; }
+
+.aside__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px; }
+
+.social__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.social__list-item {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  margin-right: 15px;
+  position: relative;
+  color: #1a56a3;
+  font-size: 20px; }
+
+.fb::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "\f39e"; }
+
+.insta::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "\f16d"; }
+
+.youtube::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "\f167"; }
+
+.social__list-item.fb:hover {
+  color: blue; }
+
+.social__list-item.insta:hover {
+  color: black; }
+
+.social__list-item.youtube:hover {
+  color: red; }
+
+.nda {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.nda__text {
+  margin-left: 20px;
+  color: white;
+  text-decoration: underline; }

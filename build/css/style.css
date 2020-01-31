@@ -179,7 +179,7 @@ input[type="submit"] {
 /* Медиа запрос - на этом разрешении экрана изменятся отступы по краям */
 @media (max-width: 1110px) {
   .container {
-    padding: 0 10px; } }
+    padding: 0 15px; } }
 
 .header {
   background-image: url("../img/header/background.png");

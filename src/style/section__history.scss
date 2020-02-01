@@ -31,33 +31,3 @@
 	color: $box-info--text;
 	line-height: 1.4;
 }
-
-.section__row-3 {
-	margin-top: 50px;
-}
-
-.statistic__box-list {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-
-.statistic__box-item {
-	text-align: center;
-}
-
-.statistic__box-title {
-	font-size: 21px;
-	margin-bottom: 10px;
-}
-
-.statistic__box-text {
-	font-size: 21px;
-}
-
-.statistic__box-numbers {
-	font-size: 36px;
-	color: $box-numbers;
-	font-weight: bold;
-	margin-bottom: 10px;
-}

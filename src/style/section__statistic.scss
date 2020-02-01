@@ -1,0 +1,38 @@
+.statistic__box-list {
+	display: flex;
+	justify-content: space-around;
+	// align-items: center;
+}
+
+.statistic__box-item {
+	text-align: center;
+	border-radius: 14px;
+	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.7);
+	max-width: 400px;
+	padding: 30px;
+}
+
+// .statistic__box-title {
+// 	font-size: 21px;
+// 	margin-bottom: 10px;
+// }
+
+.statistic__box-text {
+	font-size: 21px;
+	line-height: 1.7;
+}
+
+.statistic__box-numbers {
+	font-size: 70px;
+	color: $box-numbers;
+	font-weight: bold;
+}
+
+.statistic__box-numbers::after {
+	display: block;
+	content: "";
+	width: 150px;
+	margin: 25px auto;
+	border-bottom: 5px solid $button__background;
+
+}

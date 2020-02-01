@@ -271,18 +271,17 @@ input[type="submit"] {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-end; }
+  align-items: baseline; }
 
 .content__box-item {
-  max-width: 549px;
-  margin-left: 66px;
-  margin-bottom: 40px; }
+  max-width: 300px;
+  margin-left: 15px; }
 
 .content__box-img {
   text-align: center; }
 
 .content__box-info {
-  padding: 50px 70px;
+  padding: 35px 17px;
   background-color: white;
   border-radius: 10px;
   margin-top: 63px; }
@@ -291,7 +290,7 @@ input[type="submit"] {
   color: #263238;
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 60px; }
+  margin-bottom: 35px; }
 
 .content__box-info--text {
   font-size: 18px;

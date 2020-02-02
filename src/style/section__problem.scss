@@ -33,9 +33,21 @@
   max-width: 400px;
   margin-left: 15px;
 }
+
 .content__box-item:first-child {
   margin-left: 0px;
 }
+
+@media (max-width: 1024px) {
+  .content__box-item:nth-child(1) {
+    margin-bottom: 10px;
+  }
+
+  .content__box-item:nth-child(2) {
+    margin-bottom: 10px;
+  }
+}
+
 .content__box-img {
   margin: 0 auto;
   width: 30%;
@@ -70,21 +82,19 @@
 .section__button {
   border-radius: 50px;
   color: $button__color-text;
-  background-image: linear-gradient(
-    to right,
-    #841ca2,
-    #7e27a8,
-    #772fae,
-    #7036b4,
-    #683db9,
-    #6342bd,
-    #5d47c0,
-    #574bc3,
-    #534fc6,
-    #4f53c9,
-    #4b56cb,
-    #475ace
-  );
+  background-image: linear-gradient(to right,
+      #841ca2,
+      #7e27a8,
+      #772fae,
+      #7036b4,
+      #683db9,
+      #6342bd,
+      #5d47c0,
+      #574bc3,
+      #534fc6,
+      #4f53c9,
+      #4b56cb,
+      #475ace);
   padding: 24px 110px;
   font-weight: bold;
 }

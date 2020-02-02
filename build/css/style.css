@@ -204,7 +204,7 @@ input[type="submit"] {
 .header__menu-item {
   margin-left: 65px; }
 
-.header__menu-item--login {
+.header__menu-item--price {
   background-color: white;
   border-radius: 15px;
   padding: 10px 35px;
@@ -213,7 +213,7 @@ input[type="submit"] {
 .header__menu-item > a {
   color: white; }
 
-.header__menu-item--login > a {
+.header__menu-item--price > a {
   color: blue; }
 
 .header__row-2 {
@@ -278,6 +278,12 @@ input[type="submit"] {
 
 .content__box-item:first-child {
   margin-left: 0px; }
+
+@media (max-width: 1024px) {
+  .content__box-item:nth-child(1) {
+    margin-bottom: 10px; }
+  .content__box-item:nth-child(2) {
+    margin-bottom: 10px; } }
 
 .content__box-img {
   margin: 0 auto;
@@ -358,6 +364,10 @@ input[type="submit"] {
   max-width: 1020px;
   margin-bottom: 20px; }
 
+.content__box-img--left,
+.content__box-img--right {
+  width: 100%; }
+
 .content__box-info--right,
 .content__box-info--left {
   box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.7);
@@ -383,8 +393,15 @@ input[type="submit"] {
 
 .price__box-list {
   display: flex;
-  justify-content: space-between;
-  align-items: center; }
+  flex: 0 0 33.3%; }
+
+@media (max-width: 1024px) {
+  .price__box-list {
+    flex-wrap: wrap; } }
+
+@media (max-width: 1024px) {
+  .price__box-item {
+    margin: 20px auto; } }
 
 .price__box-item--second,
 .price__box-item--first {
@@ -393,6 +410,12 @@ input[type="submit"] {
   border-radius: 10px;
   padding-top: 20px;
   padding-bottom: 20px; }
+
+@media (max-width: 1024px) {
+  .price__box-item--second,
+  .price__box-item--first {
+    max-width: 400px;
+    margin: 0 auto; } }
 
 .price__box-info {
   text-align: center;
@@ -578,14 +601,29 @@ input[type="submit"] {
   max-width: 400px;
   padding: 30px; }
 
+@media (max-width: 1024px) {
+  .statistic__box-item {
+    margin-left: 10px;
+    padding: 25px; }
+  .statistic__box-item:first-child {
+    margin-left: 0px; } }
+
 .statistic__box-text {
   font-size: 21px;
   line-height: 1.7; }
+
+@media (max-width: 1024px) {
+  .statistic__box-text {
+    font-size: 18px; } }
 
 .statistic__box-numbers {
   font-size: 70px;
   color: black;
   font-weight: bold; }
+
+@media (max-width: 1024px) {
+  .statistic__box-numbers {
+    font-size: 60px; } }
 
 .statistic__box-numbers::after {
   display: block;

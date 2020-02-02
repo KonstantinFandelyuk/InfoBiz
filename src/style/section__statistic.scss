@@ -12,20 +12,38 @@
 	padding: 30px;
 }
 
-// .statistic__box-title {
-// 	font-size: 21px;
-// 	margin-bottom: 10px;
-// }
+@media (max-width: 1024px) {
+	.statistic__box-item {
+		margin-left: 10px;
+		padding: 25px;
+	}
+
+	.statistic__box-item:first-child {
+		margin-left: 0px;
+	}
+}
 
 .statistic__box-text {
 	font-size: 21px;
 	line-height: 1.7;
 }
 
+@media (max-width: 1024px) {
+	.statistic__box-text {
+		font-size: 18px;
+	}
+}
+
 .statistic__box-numbers {
 	font-size: 70px;
 	color: $box-numbers;
 	font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+	.statistic__box-numbers {
+		font-size: 60px;
+	}
 }
 
 .statistic__box-numbers::after {

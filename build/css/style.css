@@ -272,8 +272,14 @@ input[type="submit"] {
   justify-content: center;
   align-items: baseline; }
 
+.content__box--problem {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 34px -4px #949494;
+  padding: 30px 0; }
+
 .content__box-item {
-  max-width: 400px;
+  max-width: 300px;
   margin-left: 15px; }
 
 .content__box-item:first-child {
@@ -289,17 +295,21 @@ input[type="submit"] {
   margin: 0 auto;
   width: 30%; }
 
+.content__box-img--problem {
+  margin: 20px auto;
+  width: 40%; }
+
 .content__box-info {
   padding: 30px 18px;
   background-color: white;
-  border-radius: 10px;
-  margin-top: 63px; }
+  border-radius: 10px; }
 
 .content__box-info--tittle {
   color: #263238;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;
-  margin-bottom: 35px; }
+  margin-bottom: 35px;
+  text-align: center; }
 
 .content__box-info--text {
   font-size: 18px;
@@ -311,14 +321,14 @@ input[type="submit"] {
   margin-top: 60px;
   text-align: center; }
 
-.section__button {
+.section__problem-button {
   border-radius: 50px;
   color: white;
   background-image: linear-gradient(to right, #841ca2, #7e27a8, #772fae, #7036b4, #683db9, #6342bd, #5d47c0, #574bc3, #534fc6, #4f53c9, #4b56cb, #475ace);
   padding: 24px 110px;
   font-weight: bold; }
 
-.section__button:hover {
+.section__problem-button:hover {
   background: #5ccf02; }
 
 .history__box {
@@ -356,6 +366,9 @@ input[type="submit"] {
   background-position: left top;
   background-size: 70%; }
 
+.content__box--section__decision {
+  background-color: transparent; }
+
 .content__box-item--left,
 .content__box-item--right {
   display: flex;
@@ -383,7 +396,11 @@ input[type="submit"] {
 
 .content__box-info--tittle--right,
 .content__box-info--tittle--left {
-  margin: 30px 0px; }
+  margin: 30px 0px;
+  color: #263238;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 35px; }
 
 .section__price {
   background-image: url("../img/section/section__price/background.png");
@@ -592,19 +609,22 @@ input[type="submit"] {
 
 .statistic__box-list {
   display: flex;
-  justify-content: space-around; }
+  justify-content: center;
+  flex-wrap: wrap; }
 
 .statistic__box-item {
   text-align: center;
   border-radius: 14px;
   box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.7);
   max-width: 400px;
-  padding: 30px; }
+  padding: 30px;
+  margin-left: 25px; }
 
 @media (max-width: 1024px) {
   .statistic__box-item {
     margin-left: 10px;
-    padding: 25px; }
+    padding: 25px;
+    margin-bottom: 15px; }
   .statistic__box-item:first-child {
     margin-left: 0px; } }
 

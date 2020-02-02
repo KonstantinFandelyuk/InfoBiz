@@ -1,61 +1,94 @@
 .section {
-	margin-top: 150px;
+  margin-top: 150px;
 }
 
 .section__problem {
-	background-image: url("../img/section/section__problem/background.png");
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-size: cover;
+  background-image: url("../img/section/section__problem/background.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
 }
 
 .section__row-1 {
-	text-align: center;
-	margin-bottom: 100px;
+  text-align: center;
+  margin-bottom: 100px;
 }
 
 .section__tittle {
-	font-size: 36px;
-	font-weight: bold;
-	max-width: 715px;
-	margin: 0 auto;
-	line-height: 1.1;
+  font-size: 36px;
+  font-weight: bold;
+  max-width: 715px;
+  margin: 0 auto;
+  line-height: 1.1;
 }
 
 .content__box {
-	margin: 0 116px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
 }
 
 .content__box-item {
-	max-width: 300px;
-	margin-left: 15px;
+  max-width: 400px;
+  margin-left: 15px;
 }
-
+.content__box-item:first-child {
+  margin-left: 0px;
+}
 .content__box-img {
-	text-align: center;
+  margin: 0 auto;
+  width: 30%;
 }
 
 .content__box-info {
-	padding: 35px 17px;
-	background-color: white;
-	border-radius: 10px;
-	margin-top: 63px;
+  padding: 30px 18px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 63px;
 }
 
 .content__box-info--tittle {
-	color: $box-info--tittle;
-	font-size: 24px;
-	font-weight: bold;
-	margin-bottom: 35px;
+  color: $box-info--tittle;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 35px;
 }
 
 .content__box-info--text {
-	font-size: 18px;
-	font-weight: 300;
-	color: $box-info--text;
-	line-height: 1.8;
+  font-size: 18px;
+  font-weight: 300;
+  color: $box-info--text;
+  line-height: 1.8;
+}
+
+.section__row-3 {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.section__button {
+  border-radius: 50px;
+  color: $button__color-text;
+  background-image: linear-gradient(
+    to right,
+    #841ca2,
+    #7e27a8,
+    #772fae,
+    #7036b4,
+    #683db9,
+    #6342bd,
+    #5d47c0,
+    #574bc3,
+    #534fc6,
+    #4f53c9,
+    #4b56cb,
+    #475ace
+  );
+  padding: 24px 110px;
+  font-weight: bold;
+}
+
+.section__button:hover {
+  background: #5ccf02;
 }

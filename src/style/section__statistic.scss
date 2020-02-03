@@ -10,11 +10,17 @@
 		justify-content: space-between;
 	}
 
-	@media (max-width: 768px) {
+	@media (max-width: 916px) {
 		.statistic__box-list {
-			justify-content: space-around;
+			justify-content: space-between;
 		}
 	}
+
+	// @media (max-width: 768px) {
+	// 	.statistic__box-list {
+	// 		justify-content: space-around;
+	// 	}
+	// }
 }
 
 .statistic__box-item {
@@ -27,23 +33,29 @@
 }
 
 @media (max-width: 1316px) {
-	.statistic__box-item:first-child {
-		margin-left: 0px;
+	.statistic__box-item {
+		margin-left: 15px;
+		max-width: 350px;
 	}
 
-	@media (max-width: 1218px) {
+	@media (max-width: 1120px) {
 		.statistic__box-item {
 			margin-left: 15px;
-			max-width: 350px;
+			padding: 25px;
+			max-width: 300px;
 		}
 	}
 
-	@media (max-width: 1024px) {
+	@media (max-width: 970px) {
 		.statistic__box-item {
-			margin-left: 10px;
-			padding: 25px;
-			margin-bottom: 15px;
-			max-width: 300px;
+			max-width: 290px;
+			margin-left: 0;
+		}
+	}
+
+	@media (max-width: 910px) {
+		.statistic__box-item {
+			max-width: 280px;
 		}
 	}
 

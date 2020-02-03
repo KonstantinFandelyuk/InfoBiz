@@ -6,6 +6,13 @@
 	height: 790px;
 }
 
+@media (max-width: 1316px) {
+	.header {
+		background-size: 50%;
+		background-position: right;
+	}
+}
+
 .header__row-1 {
 	padding-top: 95px;
 }
@@ -14,6 +21,12 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+@media (max-width: 1316px) {
+	.header__menu {
+		justify-content: center;
+	}
 }
 
 .header__menu-list {

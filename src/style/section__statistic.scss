@@ -9,6 +9,12 @@
 	.statistic__box-list {
 		justify-content: space-between;
 	}
+
+	@media (max-width: 768px) {
+		.statistic__box-list {
+			justify-content: space-around;
+		}
+	}
 }
 
 .statistic__box-item {
@@ -37,12 +43,14 @@
 			margin-left: 10px;
 			padding: 25px;
 			margin-bottom: 15px;
+			max-width: 300px;
 		}
 	}
 
-	@media (max-width: 1000px) {
+	@media (max-width: 768px) {
 		.statistic__box-item {
-			max-width: 300px;
+			max-width: 230px;
+			padding: 25px 10px;
 		}
 	}
 }

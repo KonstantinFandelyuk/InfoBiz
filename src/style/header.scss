@@ -11,6 +11,12 @@
 		background-size: 50%;
 		background-position: right;
 	}
+
+	@media (max-width: 768px) {
+		.header {
+			background-position: bottom right;
+		}
+	}
 }
 
 .header__row-1 {

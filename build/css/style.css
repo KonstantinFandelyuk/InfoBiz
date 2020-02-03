@@ -192,6 +192,10 @@ input[type="submit"] {
     background-size: 50%;
     background-position: right; } }
 
+@media (max-width: 1316px) and (max-width: 768px) {
+  .header {
+    background-position: bottom right; } }
+
 .header__row-1 {
   padding-top: 95px; }
 
@@ -628,6 +632,10 @@ input[type="submit"] {
   .statistic__box-list {
     justify-content: space-between; } }
 
+@media (max-width: 1000px) and (max-width: 768px) {
+  .statistic__box-list {
+    justify-content: space-around; } }
+
 .statistic__box-item {
   text-align: center;
   border-radius: 14px;
@@ -649,11 +657,13 @@ input[type="submit"] {
   .statistic__box-item {
     margin-left: 10px;
     padding: 25px;
-    margin-bottom: 15px; } }
-
-@media (max-width: 1316px) and (max-width: 1000px) {
-  .statistic__box-item {
+    margin-bottom: 15px;
     max-width: 300px; } }
+
+@media (max-width: 1316px) and (max-width: 768px) {
+  .statistic__box-item {
+    max-width: 230px;
+    padding: 25px 10px; } }
 
 .statistic__box-text {
   font-size: 21px;

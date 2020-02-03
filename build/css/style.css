@@ -182,11 +182,10 @@ input[type="submit"] {
     padding: 0 15px; } }
 
 .header {
-  background-image: url("../img/header/background.png");
+  background-image: url("../img/header/background-3.png");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 986px; }
+  background-position: top right;
+  height: 790px; }
 
 .header__row-1 {
   padding-top: 95px; }

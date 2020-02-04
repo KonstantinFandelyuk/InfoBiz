@@ -302,11 +302,17 @@ input[type="submit"] {
 .content__box-item:first-child {
   margin-left: 0px; }
 
-@media (max-width: 1024px) {
+@media (max-width: 1029px) {
+  .content__box-item {
+    max-width: 240px; }
   .content__box-item:nth-child(1) {
     margin-bottom: 10px; }
   .content__box-item:nth-child(2) {
     margin-bottom: 10px; } }
+
+@media (max-width: 1029px) and (max-width: 985px) {
+  .content__box-item {
+    max-width: 230px; } }
 
 .content__box-img {
   margin: 0 auto;
@@ -452,6 +458,11 @@ ul {
   .price__box-item--first {
     max-width: 400px;
     margin: 0 auto; } }
+
+@media (max-width: 1024px) and (max-width: 1024px) {
+  .price__box-item--second,
+  .price__box-item--first {
+    max-width: 300px; } }
 
 .price__box-info {
   text-align: center;

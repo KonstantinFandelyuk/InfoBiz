@@ -26,3 +26,15 @@ function countStartPage(target, final, start = 0, duration = 2, fps = 60) {
 countStartPage("target", 59);
 countStartPage("target2", 70);
 countStartPage("target3", 66);
+
+function smoothScroll(Element) {
+  Element = document.getElementById("smoothScroll");
+  let selectedPosX = 0;
+  let selectedPosY = 0;
+  if (Element != null) {
+    selectedPosX += Element.offsetLeft;
+    selectedPosY += Element.offsetTop;
+    Element = Element.offsetParent;
+  }
+  window.scrollTo(selectedPosX, selectedPosY);
+}

@@ -181,6 +181,9 @@ input[type="submit"] {
   .container {
     padding: 0 15px; } }
 
+html {
+  scroll-behavior: smooth; }
+
 .header {
   background-image: url("../img/header/background-3.png");
   background-repeat: no-repeat;

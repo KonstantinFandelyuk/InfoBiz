@@ -2,6 +2,12 @@
   margin-top: 150px;
 }
 
+@media (max-width: 430px) {
+  .section {
+    margin-top: 80px;
+  }
+}
+
 .section__problem {
   background-image: url("../img/section/section__problem/background.png");
   background-repeat: no-repeat;

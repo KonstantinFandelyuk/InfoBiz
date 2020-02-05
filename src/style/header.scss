@@ -24,6 +24,12 @@
 			background-position: bottom right;
 		}
 	}
+
+	@media (max-width: 425px) {
+		.header {
+			background-position-y: 425px;
+		}
+	}
 }
 
 .header__row-1 {

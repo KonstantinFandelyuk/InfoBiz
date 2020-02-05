@@ -77,6 +77,12 @@
 		margin-top: 65px;
 		margin-left: 35px;
 	}
+
+	@media (max-width: 650px) {
+		.header__row-2 {
+			margin-left: 15px;
+		}
+	}
 }
 
 .header__info {
@@ -93,6 +99,12 @@
 	font-size: 50px;
 	font-weight: bold;
 	color: $header__info-tittle;
+}
+
+@media (max-width: 428px) {
+	.header__info-tittle {
+		font-size: 35px;
+	}
 }
 
 .header__info-text {

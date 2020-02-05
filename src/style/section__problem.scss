@@ -116,6 +116,14 @@
   font-weight: bold;
 }
 
+@media (max-width: 380px) {
+
+  .section__problem-button {
+    padding: 24px 70px;
+  }
+
+}
+
 .section__problem-button:hover {
   background: #5ccf02;
 }

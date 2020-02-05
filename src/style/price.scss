@@ -12,11 +12,11 @@
 	flex: 0 0 33.3%;
 }
 
-@media (max-width: 1024px) {
-	.price__box-list {
-		flex-wrap: wrap;
-	}
-}
+// @media (max-width: 1024px) {
+// 	.price__box-list {
+// 		flex-wrap: wrap;
+// 	}
+// }
 
 @media (max-width: 1024px) {
 	.price__box-item {
@@ -37,15 +37,39 @@
 
 	.price__box-item--second,
 	.price__box-item--first {
-		max-width: 400px;
-		margin: 0 auto;
+		max-width: 300px;
 	}
 
-	@media (max-width: 1024px) {
+	@media (max-width: 989px) {
 
 		.price__box-item--second,
 		.price__box-item--first {
 			max-width: 300px;
+			margin: 0 auto 0 auto;
+		}
+	}
+
+	@media (max-width: 962px) {
+
+		.price__box-item--second,
+		.price__box-item--first {
+			max-width: 280px;
+		}
+	}
+
+	@media (max-width: 900px) {
+
+		.price__box-item--second,
+		.price__box-item--first {
+			max-width: 270px;
+		}
+	}
+
+	@media (max-width: 870px) {
+
+		.price__box-item--second,
+		.price__box-item--first {
+			max-width: 265px;
 		}
 	}
 }

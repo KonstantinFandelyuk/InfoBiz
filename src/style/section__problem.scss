@@ -49,26 +49,14 @@
   }
 }
 
-.content__box-item:first-child {
-  margin-left: 0px;
-}
-
 @media (max-width: 1029px) {
   .content__box-item {
     max-width: 240px; // 400px
   }
 
-  .content__box-item:nth-child(1) {
-    margin-bottom: 10px;
-  }
-
-  .content__box-item:nth-child(2) {
-    margin-bottom: 10px;
-  }
-
-  @media (max-width: 985px) {
+  @media (max-width: 986px) {
     .content__box-item {
-      max-width: 230px; // 400px
+      max-width: 319px; // 400px
     }
   }
 }

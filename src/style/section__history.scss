@@ -1,13 +1,22 @@
+// .section__history {
+// 	background-color: white;
+// 	background-image: url("../img/section/section__history/background.png");
+// 	background-repeat: no-repeat;
+// 	background-size: cover;
+// 	background-position: top;
+// }
+
 .history__box {
 	display: flex;
 	justify-content: center;
+	align-items: flex-end;
 }
 
 .history__box-img {
 	border-radius: 7px;
 	overflow: hidden;
 	margin-right: 100px;
-	width: 420px;
+	width: 300px;
 }
 
 .history__box-info {

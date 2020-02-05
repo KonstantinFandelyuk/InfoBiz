@@ -30,6 +30,12 @@
 			background-position-y: 425px;
 		}
 	}
+
+	@media (max-width: 320px) {
+		.header {
+			background-position-y: 490px;
+		}
+	}
 }
 
 .header__row-1 {
@@ -110,6 +116,12 @@
 @media (max-width: 428px) {
 	.header__info-tittle {
 		font-size: 35px;
+	}
+
+	@media (max-width: 320px) {
+		.header__info-tittle {
+			text-align: center;
+		}
 	}
 }
 

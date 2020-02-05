@@ -205,6 +205,10 @@ input[type="submit"] {
   .header {
     background-position-y: 425px; } }
 
+@media (max-width: 1703px) and (max-width: 320px) {
+  .header {
+    background-position-y: 490px; } }
+
 .header__row-1 {
   padding-top: 95px; }
 
@@ -265,6 +269,10 @@ input[type="submit"] {
 @media (max-width: 428px) {
   .header__info-tittle {
     font-size: 35px; } }
+
+@media (max-width: 428px) and (max-width: 320px) {
+  .header__info-tittle {
+    text-align: center; } }
 
 .header__info-text {
   margin-top: 60px;

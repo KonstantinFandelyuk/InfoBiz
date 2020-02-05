@@ -22,12 +22,25 @@
 	color: white;
 }
 
+@media (max-width: 956px) {
+	.subscription__box-tittle {
+		padding: 20px 15px;
+		margin: 15px 0;
+	}
+}
+
 .subscription__box-form {
 	padding-bottom: 90px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+}
+
+@media (max-width: 956px) {
+	.subscription__box-form {
+		padding-bottom: 35px;
+	}
 }
 
 .subscription__box-input {

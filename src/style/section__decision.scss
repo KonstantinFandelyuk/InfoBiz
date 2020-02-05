@@ -18,6 +18,14 @@
 	margin-bottom: 20px;
 }
 
+@media (max-width: 810px) {
+
+	.content__box-item--left,
+	.content__box-item--right {
+		flex-direction: column;
+	}
+}
+
 .content__box-img--left,
 .content__box-img--right {
 	width: 100%;
@@ -37,6 +45,19 @@
 
 .content__box-info--right {
 	order: 1;
+}
+
+@media (max-width: 810px) {
+
+	.content__box-img--left,
+	.content__box-img--right {
+		order: 0;
+		text-align: center;
+	}
+
+	.content__box-info--right {
+		order: 0;
+	}
 }
 
 .content__box-info--tittle--right,

@@ -58,6 +58,13 @@
 			padding: 25px 10px;
 		}
 	}
+
+	@media (max-width: 760px) {
+		.statistic__box-item {
+			max-width: 100%;
+			padding: 25px 10px;
+		}
+	}
 }
 
 .statistic__box-text {

@@ -194,6 +194,10 @@ input[type="submit"] {
 
 @media (max-width: 1703px) and (max-width: 1370px) {
   .header {
+    background-position: bottom right; } }
+
+@media (max-width: 1703px) and (max-width: 470px) {
+  .header {
     background-size: 50%;
     background-position: bottom right; } }
 
@@ -233,8 +237,17 @@ input[type="submit"] {
   margin-top: 160px;
   margin-left: 60px; }
 
+@media (max-width: 650px) {
+  .header__row-2 {
+    margin-top: 65px;
+    margin-left: 35px; } }
+
 .header__info {
   max-width: 645px; }
+
+@media (max-width: 512px) {
+  .header__info {
+    max-width: 900px; } }
 
 .header__info-tittle {
   font-size: 50px;
@@ -481,6 +494,10 @@ ul {
 .price__box-item--second {
   margin-left: 20px; }
 
+@media (max-width: 463px) {
+  .price__box-item--second {
+    margin-left: 10px; } }
+
 .price__box-info {
   text-align: center;
   padding: 10px; }
@@ -531,7 +548,8 @@ ul {
   background-image: url("../img/footer/background.png");
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: cover; }
+  background-size: cover;
+  display: none; }
 
 .subscription__box {
   text-align: center;
@@ -708,7 +726,8 @@ ul {
 @media (max-width: 1316px) and (max-width: 760px) {
   .statistic__box-item {
     max-width: 100%;
-    padding: 25px 10px; } }
+    padding: 25px 10px;
+    margin-bottom: 18px; } }
 
 .statistic__box-text {
   font-size: 21px;

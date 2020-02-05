@@ -11,12 +11,6 @@
 	align-items: center;
 }
 
-// @media (max-width: 1024px) {
-// 	.price__box-list {
-// 		flex-wrap: wrap;
-// 	}
-// }
-
 .price__box-item--second,
 .price__box-item--first {
 	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.7);
@@ -28,6 +22,13 @@
 
 .price__box-item--second {
 	margin-left: 20px;
+}
+
+@media (max-width: 463px) {
+
+	.price__box-item--second {
+		margin-left: 10px;
+	}
 }
 
 

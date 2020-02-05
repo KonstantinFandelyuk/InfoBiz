@@ -28,7 +28,7 @@ countStartPage("target2", 70);
 countStartPage("target3", 66);
 
 function smoothScroll(Element) {
-  Element = document.getElementById("smoothScroll");
+  Element = document.getElementById(Element);
   let selectedPosX = 0;
   let selectedPosY = 0;
   if (Element != null) {

@@ -686,19 +686,19 @@ ul {
   justify-content: space-between;
   align-items: center; }
 
+@media (max-width: 890px) {
+  .social__list {
+    margin-bottom: 10px; } }
+
 .social__list-item {
   border-radius: 50%;
   width: 40px;
   height: 40px;
   background-color: white;
-  margin-right: 15px;
+  margin-left: 15px;
   position: relative;
   color: black;
   font-size: 20px; }
-
-@media (max-width: 890px) {
-  .social__list-item {
-    margin-bottom: 10px; } }
 
 .fb::before {
   position: absolute;
@@ -741,10 +741,19 @@ ul {
   justify-content: space-between;
   align-items: center; }
 
+@media (max-width: 689px) {
+  .nda {
+    flex-direction: column;
+    margin: 0 auto; } }
+
 .nda__text {
   margin-left: 20px;
   color: white;
   text-decoration: underline; }
+
+@media (max-width: 689px) {
+  .nda__text {
+    margin-bottom: 10px; } }
 
 .statistic__box-list {
   display: flex;

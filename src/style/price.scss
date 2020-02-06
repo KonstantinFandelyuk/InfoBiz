@@ -80,7 +80,7 @@
 
 .price-buy:hover {
 	color: white;
-	background-image: linear-gradient(to right, #01b95d, #0083f3, #00a4e0, #00bc9b, #01cb3f);
+	background-image: linear-gradient(to right, #3db2fd, #00c8ff, #00d9dd, #00e28f, #4fe300);
 }
 
 .price-buy--popular {
@@ -89,17 +89,5 @@
 }
 
 .price-buy--popular:hover {
-	background-image: linear-gradient(to right,
-			#841ca2,
-			#7e27a8,
-			#772fae,
-			#7036b4,
-			#683db9,
-			#6342bd,
-			#5d47c0,
-			#574bc3,
-			#534fc6,
-			#4f53c9,
-			#4b56cb,
-			#475ace);
+	background-image: linear-gradient(to right, #3db2fd, #00c8ff, #00d9dd, #00e28f, #4fe300);
 }

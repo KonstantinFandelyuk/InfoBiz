@@ -38,3 +38,23 @@ countStartPage("target3", 66);
 //   }
 //   window.scrollTo(selectedPosX, selectedPosY);
 // }
+
+const modalBuy = document.querySelector(".modal__buy");
+let animateBuy = document.querySelector(".modal__buy-background");
+
+document.addEventListener("click", function(event) {
+  const buttonBuy = event.target.closest(".price-buy");
+  if (buttonBuy) {
+    modalBuy.classList.add("active");
+    animateBuy.classList.add("zoomIn");
+  }
+});
+
+document.addEventListener("click", function(event) {
+  let modalClose = event.target.closest(".modal__close");
+  let modalElementBackground = event.target.closest(".modal__buy-background");
+  let modalElement = event.target.closest(".modal__buy");
+  if (modalClose || (modalElement && !modalElementBackground)) {
+    modalBuy.classList.remove("active");
+  }
+});

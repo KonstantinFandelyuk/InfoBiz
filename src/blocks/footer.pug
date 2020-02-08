@@ -3,10 +3,10 @@ footer.footer
 		.footer__row-1
 			.subscription__box
 				.subscription__box-tittle Остались вопросы?<br> - Напишите в Messenger и мы ответим
-				form.subscription__box-form(action="")
-					input(type="text", name="name" placeholder="Ваше имя").subscription__box-input.subscription__box-input--name
-					input(type="tel", name="phone" placeholder="Ноиер телефона").subscription__box-input.subscription__box-input--phone
-					button.subscription__box-button(type="submit") Отправить
+				form.subscription__box-form(action="send.php" method="post")
+					input(type="text", name="name" placeholder="Ваше имя" required).subscription__box-input.subscription__box-input--name
+					input(type="tel", name="phone" placeholder="Ноиер телефона" required).subscription__box-input.subscription__box-input--phone
+					button.subscription__box-button(type="submit" valuer= "Отправить") Отправить
 		.footer__row-2
 			.aside__box
 				.socials

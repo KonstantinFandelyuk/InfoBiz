@@ -404,23 +404,25 @@ html {
 .history__box-img {
   border-radius: 7px;
   overflow: hidden;
-  margin-right: 100px;
-  width: 25%; }
+  margin-right: 50px;
+  width: 50%; }
 
-@media (max-width: 1208px) {
+@media (max-width: 905px) {
   .history__box-img {
-    width: 40%; } }
+    width: 70%;
+    margin: auto 50px auto 0; } }
 
-@media (max-width: 1208px) and (max-width: 890px) {
+@media (max-width: 905px) and (max-width: 890px) {
   .history__box-img {
-    width: 40%;
+    width: 60%;
     margin-bottom: 20px; } }
 
 .history__box-info {
   max-width: 910px;
   display: flex;
   justify-content: center;
-  flex-direction: column; }
+  flex-direction: column;
+  margin: auto 0; }
 
 @media (max-width: 1208px) {
   .history__box-info {
@@ -437,7 +439,7 @@ html {
   font-weight: bold; }
 
 ul {
-  list-style: circle;
+  list-style: disc;
   margin-top: 20px;
   margin-bottom: 20px; }
 

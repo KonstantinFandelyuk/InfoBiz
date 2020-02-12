@@ -1,3 +1,14 @@
 .modal__buy
 	.modal__buy-background.animated
+		.box-buy
+			form(action="", method="POST").contact__form Что бы осуществить оплату введите ваши данные.
+				input(type="text", placeholder="Введите ваше ФИО" name="fio")
+				input(type="email", placeholder="Введите ваш E-mail" name="email")
+				input(type="tel", placeholder="Ваш телефон" name="phone-number")
+				input.button-pay(type="button", value="Оплатить")
+				label.check
+					input.check__input(type="checkbox", name="Лицензионное соглашение" checked)
+					i.far.fa-square
+					span.info__pay-text Я прочитал <a href="#">Пользовательское Соглашение</a> и <a href="#">Соглашение об Обработке Персональных Данных</a> и согласен с их пунктами.
+			.pay__form
 		.modal__close

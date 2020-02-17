@@ -35,6 +35,12 @@ html {
 		}
 	}
 
+	@media (max-width: 375px) {
+		.header {
+			background-position-y: 361px;
+		}
+	}
+
 	@media (max-width: 320px) {
 		.header {
 			background-position-y: 490px;
@@ -44,6 +50,12 @@ html {
 
 .header__row-1 {
 	padding-top: 95px;
+}
+
+@media (max-width: 375px) {
+	.header__row-1 {
+		padding-top: 50px;
+	}
 }
 
 .header__menu {

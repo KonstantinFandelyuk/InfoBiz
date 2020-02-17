@@ -209,12 +209,20 @@ html {
   .header {
     background-position-y: 425px; } }
 
+@media (max-width: 1703px) and (max-width: 375px) {
+  .header {
+    background-position-y: 361px; } }
+
 @media (max-width: 1703px) and (max-width: 320px) {
   .header {
     background-position-y: 490px; } }
 
 .header__row-1 {
   padding-top: 95px; }
+
+@media (max-width: 375px) {
+  .header__row-1 {
+    padding-top: 50px; } }
 
 .header__menu {
   display: flex;
@@ -320,6 +328,10 @@ html {
   max-width: 715px;
   margin: 0 auto;
   line-height: 1.1; }
+
+@media (max-width: 430px) {
+  .section__tittle {
+    font-size: 31px; } }
 
 .content__box {
   display: flex;

@@ -2,8 +2,8 @@
 	.modal__buy-background.animated
 		.box-buy
 			form(action="", method="POST").contact__form Что бы осуществить оплату введите ваши данные.
-				input(type="text", placeholder="Введите ваше ФИО" name="fio")
-				input(type="email", placeholder="Введите ваш E-mail" name="email")
+				input(type="text", placeholder="Введите ваше ФИО" pattern="[a-z A-Z а-я А-Я]{3,60}" name="fio")
+				input(type="email", placeholder="Введите ваш E-mail" pattern="[a-zA-Z0-9.-_]{1,30}@[a-zA-Z.-]{2,10}[.]{1}[a-zA-Z]{2,5}" name="email")
 				input(type="tel", placeholder="Ваш телефон" name="phone-number")
 				input.button-pay(type="button", value="Оплатить")
 				label.check

@@ -4,7 +4,7 @@ footer.footer
 			.subscription__box
 				.subscription__box-tittle Остались вопросы?<br> - Напишите в Messenger и мы ответим
 				form.subscription__box-form(action="send.php" method="POST")
-					input(type="text", name="name" pattern="[a-zA-Zа-яgulpА-Я]{3,60}" placeholder="Ваше имя" required).subscription__box-input.subscription__box-input--name
+					input(type="text", name="name" pattern="[a-z A-Z а-я А-Я]{3,60}" placeholder="Ваше имя" required).subscription__box-input.subscription__box-input--name
 					input(type="tel", name="phone" placeholder="+38 (099) 999-99-99" required).subscription__box-input.subscription__box-input--phone
 					button.subscription__box-button(type="submit" valuer= "Отправить") Отправить
 		.footer__row-2

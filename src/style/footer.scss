@@ -22,7 +22,7 @@
 	overflow: hidden;
 }
 
-.subscription__box-tittle {
+.subscription__box-title {
 	font-size: 36px;
 	padding: 80px 234px;
 	color: white;
@@ -30,19 +30,19 @@
 
 
 @media (max-width: 956px) {
-	.subscription__box-tittle {
+	.subscription__box-title {
 		padding: 20px 15px;
 		margin: 15px 0;
 	}
 
 	@media (max-width: 540px) {
-		.subscription__box-tittle {
+		.subscription__box-title {
 			font-size: 30px;
 		}
 	}
 
 	@media (max-width: 420px) {
-		.subscription__box-tittle {
+		.subscription__box-title {
 			padding: 10px 10px;
 			font-size: 25px;
 		}

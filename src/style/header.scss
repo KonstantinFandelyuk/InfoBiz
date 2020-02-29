@@ -123,19 +123,19 @@ html {
 	}
 }
 
-.header__info-tittle {
+.header__info-title {
 	font-size: 50px;
 	font-weight: bold;
-	color: $header__info-tittle;
+	color: $header__info-title;
 }
 
 @media (max-width: 428px) {
-	.header__info-tittle {
+	.header__info-title {
 		font-size: 35px;
 	}
 
 	@media (max-width: 320px) {
-		.header__info-tittle {
+		.header__info-title {
 			text-align: center;
 		}
 	}
@@ -149,6 +149,11 @@ html {
 	font-weight: 300;
 	line-height: 30px;
 	max-width: 425px;
+}
+
+.header-slogan {
+	font-style: italic;
+	font-weight: bolder;
 }
 
 .header__info-button {

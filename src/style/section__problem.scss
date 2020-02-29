@@ -20,7 +20,7 @@
   margin-bottom: 100px;
 }
 
-.section__tittle {
+.section__title {
   font-size: 36px;
   font-weight: bold;
   max-width: 715px;
@@ -29,7 +29,7 @@
 }
 
 @media (max-width: 430px) {
-  .section__tittle {
+  .section__title {
     font-size: 31px;
   }
 }
@@ -88,8 +88,8 @@
   border-radius: 10px;
 }
 
-.content__box-info--tittle {
-  color: $box-info--tittle;
+.content__box-info--title {
+  color: $box-info--title;
   font-size: 16px;
   // font-weight: bold;
   margin-bottom: 35px;
